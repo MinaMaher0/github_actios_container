@@ -1,14 +1,1 @@
-name: 'my first container action'
-description: 'test'
-author: 'Mina Maher'
-inputs:
-  myInput:
-    description: 'greeting to use'
-    required: true
-    default: 'user'
-outputs:
-  myOutput:
-    description: 'total memory'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
+
